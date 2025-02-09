@@ -21,7 +21,7 @@ This project allows you to compare your Instagram followers and following lists 
 
 - Click Next → Download to Device
 
-- After some time, you will receive a ZIP file. Extract it and then move check_followers.cpp file inside the extracted ZIP folder where followers_1.json and following.json exist.
+- After some time, you will receive a ZIP file. Extract it and then move instagram_analyzer.cpp file inside the extracted ZIP folder where followers_1.json and following.json exist.
 
 
 ## Clone This Repository
@@ -67,14 +67,14 @@ After placing the JSON files in the correct directory, compile and run the progr
 ### Linux/macOS
 
 ```bash
-    g++ check_followers.cpp -o check_followers -std=c++11
-    ./check_followers
+    g++ instagram_analyzer.cpp -o instagram_analyzer -std=c++11
+    ./instagram_analyzer
 ```
 ### Windows (MSYS2 or MinGW)
 
 ```bash
-    g++ check_followers.cpp -o check_followers.exe -std=c++11
-    check_followers.exe
+    g++ instagram_analyzer.cpp -o instagram_analyzer.exe -std=c++11
+    instagram_analyzer.exe
 ```
 
 This will display the mutual followers and those who don't follow you back, along with their counts.
