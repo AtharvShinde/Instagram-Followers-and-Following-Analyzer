@@ -29,7 +29,7 @@ This project allows you to compare your Instagram followers and following lists 
 Clone the project
 
 ```bash
-    git clone https://github.com/AtharvShinde/Instagram-Followers-and-Following-Comparator
+    git clone https://github.com/AtharvShinde/Instagram-Followers-and-Following-Analyzer
 ```
 Then, copy check_followers.cpp into the extracted ZIP folder where followers_1.json and following.json are located.
 
